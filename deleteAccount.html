@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Acount</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/preloader.css">
+    <link rel="stylesheet" href="./css/deleteAccount.css">
+    <link rel="stylesheet" href="./css/memberRegistrationForm.css">
+</head>
+<body>
+
+      <!-- preloader section end here  -->
+      <div class="preloader">
+        <div id="fountainTextG">
+        <div id="fountainTextG_1" class="fountainTextG">F</div>
+        <div id="fountainTextG_2" class="fountainTextG">a</div>
+        <div id="fountainTextG_3" class="fountainTextG">y</div>
+        <div id="fountainTextG_4" class="fountainTextG">d</div>
+        <div id="fountainTextG_5" class="fountainTextG">a</div>
+        <div id="fountainTextG_6" class="fountainTextG"></div>
+        <div id="fountainTextG_7" class="fountainTextG">B</div>
+        <div id="fountainTextG_8" class="fountainTextG">a</div>
+        <div id="fountainTextG_9" class="fountainTextG">z</div>
+        <div id="fountainTextG_10" class="fountainTextG">a</div>
+        <div id="fountainTextG_11" class="fountainTextG">r</div>
+        </div>
+        </div>
+    <!-- preloader setion end here  -->
+
+        <div class="main">
+        <!-- ====================header sectin start here=====================  -->
+            <header class="header-main"> 
+            <div class="container p-0">
+                <div class="navbar-all">
+                    <div class="container p-0">
+                        <div class="row justify-content-between align-items-center">
+                            <nav class="navbar navbar-expand-lg bg-dark d-flex justify-content-between      align-items-center">
+                                <div class="container">
+                                    <a class="navbar-brand d-flex" href="./index.html">
+                                        <div class="form__logo ms-2 ">
+                                            <img src="./image/fav-logo.png" alt="Form Logo" title="Form logo" class="w-100">
+                                        </div>
+                                    </a>
+                                    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon bg-light"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ms-auto">
+                                            <li class="nav-item me-1">
+                                                <a class="btn btn-primary" href="./index.html" role="button">Home</a>
+                                            </li>
+                                            <li class="nav-item me-5">
+                                                <a class="btn btn-primary" href="./memberlogin.html" role="button">Login</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        <!-- ===============header sectin end here============================  -->
+
+        <!-- ==================form section start here========================  -->
+            <section class="form" id="deleteForm">
+            <div class="container">
+                <div class="sponsor">
+                    <h2 class="mb-3 text-white" id="show">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div>
+                                    <img src="./image/delete_account.png" alt="" class="W-100" > 
+                                    Delete My Account :-
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-center">
+                                    <h4 id="worl_wide__time" class="pt-1 mt-2 pb-2 px-2 bg-primary p">
+                                        <span id="day">23</span>/
+                                        <span id="month">3</span>/
+                                        <span id="year">2024</span>
+                                        <span id="weekday" class="px-1">Saturday</span>
+                                        <span id="time">10:41:41 AM</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </h2>
+                    <table class="table table-responsive" border="2" id="hide">
+                        <tbody>
+                            <tr>    
+                                <div class="d-flex">   
+                                    <div class="row">
+                                        <th>
+                                            <div class="col-sm-2">
+                                                <h6 class="pt-1">Type</h6>
+                                            </div>
+                                        </th>
+                                        <th class="col-sm-1 text-center pt-3">:</th>
+                                        <th>
+                                            <div class="col-sm-9 w-100 pt-1 px-1">
+                                                <input type="radio" name="type" id="member"  value="member"><span class="px-1">Member</span> 
+                                                <input type="radio" name="type" id="vendor" value="vendor"><span class="px-1" >Vendor</span>
+                                            </div>
+                                            <small id="msg3"></small>
+                                        </th>
+                                    </div>
+                                </div>
+                                </tr>
+                                <tr>
+                                    <div class="d-flex">   
+                                        <th>
+                                            <div class="col-sm-2">
+                                                <h6 class="pt-1">Member ID</h6>
+                                            </div>
+                                        </th>
+                                        <th class="col-sm-1 text-center pt-3">:</th>
+                                        <th>
+                                            <div class="col-sm-9 w-100">
+                                                <input type="text" class="form-control sponsor_id p-2" id="member_id">
+                                            </div>
+                                            <h6 class="mt-2" id="msgs1"></h6>
+                                        </th>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="d-flex">   
+                                        <th>
+                                            <div class="col-sm-2">
+                                                <h6 class="pt-1">Member Name</h6>
+                                            </div>
+                                        </th>
+                                        <th class="col-sm-1 text-center pt-3">:</th>
+                                        <th>
+                                            <div class="col-sm-9 w-100">
+                                                <input type="text" class="form-control  p-2 w-100" id="lName">
+                                            </div>
+                                            <!-- <small id="msg4"></small> -->
+                                        </th>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="d-flex">   
+                                        <th>
+                                            <div class="col-sm-2">
+                                                <h6 class="pt-1">Delete</h6>
+                                            </div>
+                                        </th>
+                                        <th class="col-sm-1 text-center pt-3">:</th>
+                                        <th>
+                                            <div class="col-sm-9 w-100">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option class="disable">-Select-</option>
+                                                    <option value="Accountant">Delete My Account</option>
+                                                </select>
+                                            </div>
+                                            <!-- <small id="msg5"></small> -->
+                                        </th>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="d-flex">   
+                                        <th>
+                                            <div class="col-sm-2">
+                                                <h6 class="pt-1">Reason</h6>
+                                            </div>
+                                        </th>
+                                        <th class="col-sm-1 text-center pt-3">:</th>
+                                        <th>
+                                            <div class="col-sm-9 w-100">
+                                                <select class="form-select" aria-label="Default select example" id="reason">
+                                                    <option selected value="">Select Reason</option>
+                                                    <option value="Make New Account">Make New Account</option>
+                                                    <option value="No Longer USe">No Longer USe</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                            </div>
+                                            <h6 id="msgs2"></h6>
+                                        </th>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="d-flex">   
+                                        <th>
+                                            <div class="col-sm-2">
+                                                <h6 class="pt-1">Confirm</h6>
+                                            </div>
+                                        </th>
+                                        <th class="col-sm-1 text-center pt-3">:</th>
+                                        <th>
+                                            <div class="col-sm-9 w-100">
+                                                <input type="checkbox" id="checkBox" class="m-2">
+                                            </div>
+                                            <!-- <small id="msg6"></small> -->
+                                        </th>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="d-flex">   
+                                        <th>
+                                            
+                                        </th>
+                                        <th class="col-sm-1 text-center pt-3"></th>
+                                        <th>
+                                            <div class="col-sm-9 w-100">
+                                                <!-- <input type="checkbox" id="checkBox" class="m-2"> -->
+                                                <button class="btn btn-primary text-uppercase" id="submit">submit</button>
+                                            </div>
+                                            <!-- <small id="msg6"></small> -->
+                                        </th>
+                                    </div>
+                                </tr>
+                            </tbody>
+                    </table>
+                </div>
+                
+            </div>
+            </section>
+        </div>
+        <!-- ==========================form section end here==================  -->
+
+    <div class="copyrights d-flex justify-content-center align-items-center container-fluid  text-center bg-dark text-white py-1">
+        <p class="m-0 text-center mt-1 p-2">
+            Copyright &#169; 2024 All rights are reserved by 
+            <a href="./index.html" class="hovering">Faydabazar Tech Pvt. Ltd</a>
+        </p>
+    </div>
+    
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/preloader.js"></script>
+    <script src="./js/deleteAccount.js"></script>
+    <script>
+        const day = document.getElementById('day');
+        const month = document.getElementById('month');
+        const year = document.getElementById('year');
+        const week_day = document.getElementById('weekday');
+        const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+        const dd = new Date();
+        day.textContent = dd.getDate();
+        console.log(day.textContent = dd.getDate());
+        month.textContent =  dd.getMonth() + 1;
+        year.textContent = dd.getFullYear();
+        week_day.textContent = days[dd.getDay()];
+
+        setInterval(() => {
+            const d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        },1000);
+
+    </script>
+</body>
+</html>

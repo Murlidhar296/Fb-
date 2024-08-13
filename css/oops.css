@@ -1,0 +1,254 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.hero_carosel .item,
+.owl-carousel .item {
+    height: 75vh !important;
+}
+
+.hero_carosel .owl-nav button.owl-prev,.hero_carosel .owl-nav button.owl-next{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    color: #000;
+}
+.hero_carosel .owl-nav button.owl-prev{
+    left: 0 
+}
+.hero_carosel .owl-nav button.owl-next{
+    right: 0 
+}
+.hero_carosel.owl-carousel.owl-theme .owl-nav [class*='owl-'] {
+    color: #444;
+    font-size: 28px;
+    margin: 5px;
+    background: #fff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.hero_carosel.owl-carousel.owl-theme.owl-loaded a {
+    text-decoration: none;
+}
+.hero_carosel i.owl-direction {
+    margin: 0 13px;
+    font-size: 3em;
+    padding: 0;
+    color: #607D8B;
+}
+.hero_carosel .owl-nav button.owl-next, .hero_carosel .owl-nav button.owl-prev {
+    outline: 0;
+    background: #FFF;
+    width: 36px;
+}
+
+.tag{
+    display: inline-block;
+}
+
+@keyframes fadeInUp{
+   0%{
+       opacity:0;
+       transform:translate3d(-100%,0,0);
+    }
+   to{
+       opacity:1;
+       transform:translateZ(0)
+   }
+}
+
+.fadeInUp{
+   animation-name:fadeInUp;
+}
+
+.desc {
+    position: absolute;
+    padding: 8%;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+}
+.hero-img{
+    position: relative;
+}
+
+.hero-img:before {
+    background: rgba(0, 0, 0, 0.58);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.btn-gradient-bg {
+    color: #fff;
+    /* display: inline-block; */
+    padding: 11px 33px;
+    background: linear-gradient(to right, #f05874 0%, #fc6a2a 100%);
+    border-radius: 30px;
+}
+
+.delay-1 {
+    animation-delay: .2s;
+}
+
+.delay-2 {
+    animation-delay: .4s;
+}
+
+.delay-3 {
+    animation-delay: .6s;
+}
+
+.delay-4 {
+    animation-delay: .8s;
+}
+
+.slider-counter {
+    z-index: 99;
+    bottom: 1%;
+    position: absolute;
+    text-align: center;
+    right: 4%;
+    font-size: 120px;
+    color:rgba(242, 242, 242, 0.7);
+    font-weight: 700;
+    
+}
+
+.credit-footer a {
+    text-decoration: none;
+    color: #E91E63;
+}
+.credit-footer {
+    margin-top: 100px;
+    color: #646464;
+    font: 500 12px/22px "Roboto",Arial,sans-serif;
+    letter-spacing: -0.25px;
+    text-align: center;
+}
+.credit-footer-nav{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 20px 0 0;
+    text-align: center;
+}
+.credit-footer-nav li{
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    color: #aaa;
+}
+.credit-footer-nav li a {
+    display: block;
+    color: #424242;
+    font-weight: 400;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+.credit-footer-nav li:not(:last-child):after {
+    content: "/";
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.credit-footer-wrap {
+    padding-bottom: 4%;
+}
+
+.tag{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 374px){
+    .owl-nav button{
+        display: none !important;
+    }
+
+    .hero_carosel .item {
+        height: 35vh !important;
+    }
+}
+
+@media (max-width: 767px){
+    .slider-counter {
+        font-size: 80px;
+        font-weight: 600;
+        bottom: 0 
+   }
+
+   .hero_carosel .item {
+        height: 30vh !important;
+    }
+
+    desc h2{
+        font-size: 4.3vw;
+        padding-bottom: .5rem;
+    }
+    
+    .tag{
+        font-size: 4vw;
+        padding-bottom: .5rem;
+    }
+    
+    .desc p{
+        width: 82%;
+        font-size: 2.8vw; 
+    }
+
+    .hero_carosel.owl-carousel.owl-theme .owl-nav [class*='owl-'] {
+        font-size: 15px;
+    }
+}
+@media (max-width: 576px){
+    .slider-counter {
+        font-size: 30px;
+        font-weight: 500;
+        bottom: 0 
+   }
+
+   .hero_carosel .item {
+        height: 35vh !important;
+    }
+
+   .desc h2{
+        font-size: 4.3vw;
+    }
+
+    .tag{
+        font-size: 4vw;
+    }
+
+    .desc p{
+        width: 82%;
+        font-size: 2.8vw; 
+    }
+} 
+
+/* @media (width: 1024px){
+    .hero_carosel .item {
+        height: 75vh !important;
+    }
+} */
+@media only screen and (min-width: 768px) and (max-width: 1180px){
+    .hero_carosel .item {
+        height: 45vh !important;
+    }
+}
+

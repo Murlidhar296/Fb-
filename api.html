@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    /* Animation One */
+    <style>
+
+      @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+      *
+      {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body
+      {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: #999999;
+        word-wrap:break-word;
+      }
+      
+      p
+      {
+        margin: 0 0 10px;
+      }
+      
+      ul
+      {
+        list-style: none;
+      }
+      
+      .container {
+        width: 100%;
+        margin: auto;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0 0 200px;
+      }
+      
+      .take-input {
+        margin: 50px 0 0;
+      }
+      
+      .take-input input {
+        width: 400px;
+        height: 35px;
+        padding: 0 10px;
+        border-radius: 5px;
+        border: 1px solid #ececec;
+        margin: 0 15px 0 0;
+        font-size: 15px;
+      }
+</style>
+<style>
+  .flip-in-x {
+    /* Define initial styles */
+    transform-style: preserve-3d; /* Ensure 3D perspective is maintained */
+    animation: flipInXAnimation 1s ease forwards; /* Apply animation */
+  }
+  
+  @keyframes flipInXAnimation {
+    from {
+      transform: perspective(400px) rotateX(90deg); /* Flipped 90 degrees around X-axis */
+      opacity: 0; /* Initially invisible */
+    }
+    to {
+      transform: perspective(400px) rotateX(0deg); /* Rotate back to normal */
+      opacity: 1; /* Fully visible */
+    }
+  }
+</style>
+</head>
+<body>
+    <!-- https://dummyapi.online/api/movies -->
+
+    <table border="2">
+        <thead>
+            <th>id</th>
+            <th>movie</th>
+            <th>rating</th>
+            <th>image</th>
+            <th>imdb_url</th>
+        </thead>
+        <tbody id="tableData"></tbody>
+    </table>
+
+    <div class="container">
+      <!--<div class="take-input">
+         <input type="text" placeholder="Write any text" />
+        <a href="javascript:void(0);">Enter Text</a>
+      </div>-->
+     
+      
+        <div class="animate one">
+          <span>c</span><span>s</span><span>s</span><span>3</span> &nbsp;
+          <span>a</span><span>n</span><span>i</span><span>m</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span><span>s</span>
+          
+          <a class="repeat" href="javascript:void(0);">Repeat Animation</a>
+        </div>
+    
+        <div class="flip-in-x" style="margin-top: 5rem; font-size : 3em;">Flipping Element</div>
+
+      <script src="./js/jquery.min.js"></script>
+    <script>
+        async function myApi(){
+            var myResult = await fetch('https://dummyapi.online/api/movies');   
+            myResult = await myResult.json();
+            console.log(myResult);
+            document.getElementById('tableData').innerHTML = myResult.map(element => 
+            `
+            <tr>
+                <td>${element.id}</td>
+                <td>${element.movie}</td>
+                <td>${element.rating}</td>
+                <td>${element.image}</td>
+                <td>${element.imdb_url}</td>
+            </tr>
+            `
+            ).join("");
+        };
+        myApi()
+</script>
+<script>
+        /* This code is not required for the animation. This is only needed for the repeatation */
+
+$(function(){
+	$('.repeat').click(function(){
+    	var classes =  $(this).parent().attr('class');
+        $(this).parent().attr('class', 'animate');
+        var indicator = $(this);
+        setTimeout(function(){ 
+        	$(indicator).parent().addClass(classes);
+        }, 20);
+    });
+});
+</script>
+    
+</body>
+</html>

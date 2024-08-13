@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+    max-height: 100vh;
+    pointer-events: all;
+    cursor: auto !important;
+}
+
+.member_login{
+    background: rgba(0, 0, 0, .005) url('../image/banner24.jpg') no-repeat left top;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 95vh;
+    z-index: -1;
+}
+
+#form{
+    height: auto;
+    width: 25rem !important;
+    background-color: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+    padding-bottom: 2.5rem !important;
+}
+
+.form-logo{
+    height: 10rem;
+    width: 10rem;
+    margin-top: -1.2rem;
+    margin: 0px auto;
+}
+
+.forgot_pass {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    padding-top: 1rem !important;
+}
+
+.forgot_pass a{
+    color: black !important;
+    /* text-decoration: underline; */
+    /* padding-top: -3rem; */
+}
+
+button, a{
+    color: blue!important;
+}
+
+button:hover,
+a:hover
+{
+    color: #fff !important;
+}
+
+button a:hover{
+    color: #fff !important;
+}
+
+.text{
+    position: relative;
+    color: #ff6600 !important;
+    margin-top: -1.5rem !important;
+    text-align: center;
+}
+
+.text:hover{
+    color: royalblue !important;
+}
+
+text::before{
+    content: '_';
+    width: max-content;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+
+#forgot:hover{
+    color: black !important;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+  }
+  
+.container{
+    padding-top:50px;
+    margin: auto;
+}
+
+.hr-rule{
+    height: 0 !important;
+}

@@ -1,0 +1,55 @@
+.form-container{
+    /* margin-top: 8%; */
+    width: 400px;
+    border: ridge 1.5px white;
+    padding: 20px;
+    margin: 7% auto;
+}
+
+body{
+    background: #E0EAFC;  
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); 
+}
+
+form {
+	max-width: 100%;
+	margin: 0 auto;
+    padding: 5px;
+    
+} 
+
+input[type="submit"]{
+    width: 100%;
+}
+
+.form__logo img{
+    height: auto;
+    width: 45% !important;
+}
+
+#worl_wide__time{
+    display: flex;
+}
+
+.login-buttons{
+    margin: 0 5rem 0 0 !important;
+}
+
+.login-buttons button{
+    color: #fff !important;
+}
+
+.login-buttons button:last-child{
+    margin-left: 2rem;
+
+}
+
+.form-group label{
+    font-size: 1.5rem;
+    color: #666262;
+}
+
+.form-group {
+    margin-bottom: 0 !important; 
+}

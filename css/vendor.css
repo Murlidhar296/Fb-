@@ -1,0 +1,28 @@
+.field-icon {
+    float: right;
+    margin-left: -25px !important;
+    margin-top: 0px !important;
+    position: relative;
+    z-index: 2;
+}
+
+.vendor_login{
+    height: auto;
+    width: 100%;
+    max-width: 55vw;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.forgot_image{
+    width: 6rem;
+    height: 6rem;
+}
+
+.hr-rule{
+    min-width: 106% !important;
+}
+
+.forgot_your_pass{
+    color: #fff;
+}

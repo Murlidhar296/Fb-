@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.legals{
+    padding: 1.3rem 0;
+}
+
+.legal-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.legal-title h3{
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+}
+
+.legal-title h3::after{
+    content: "";
+    width: max-content;
+    position: absolute;
+    height: .1rem;
+    width: 50%;
+    top : 2.65rem;
+    color: black;
+    left: 25%;
+    background-color: #000;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+
+.legal-title h3:hover::after{
+    transform: scale(2);
+}
+
+@keyframes fadeInUp{
+    0%{
+        opacity:0;
+        transform:translate3d(-100%,0,0) !important;
+    }
+    to{
+        opacity:1;
+        transform:translateZ(0)
+    }
+ }
+ 
+ .fadeInUp{
+    animation-name:fadeInUp !important;
+ }
+
+ .footer-links .quick_links ul li a:hover{
+    color: orangered !important;
+    font-weight: 600;
+    transition: unset;
+    font-size: unset;
+    letter-spacing: unset;
+}
+
+#top-mains .footer-links .quick_links ul li{
+    list-style-type: unset;
+    padding: 0.2rem 0;
+}
+
+.nav-item.dropdown a{
+    color: #fff !important;
+ }

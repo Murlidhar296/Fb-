@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="./css/preloader.css">
+    <link rel="icon" href="./image/footerlogo.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/forgotPass.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+<body>
+    
+     <!-- preloader section end here  -->
+     <div class="preloader">
+        <div id="fountainTextG">
+        <div id="fountainTextG_1" class="fountainTextG">F</div>
+        <div id="fountainTextG_2" class="fountainTextG">a</div>
+        <div id="fountainTextG_3" class="fountainTextG">y</div>
+        <div id="fountainTextG_4" class="fountainTextG">d</div>
+        <div id="fountainTextG_5" class="fountainTextG">a</div>
+        <div id="fountainTextG_6" class="fountainTextG"></div>
+        <div id="fountainTextG_7" class="fountainTextG">B</div>
+        <div id="fountainTextG_8" class="fountainTextG">a</div>
+        <div id="fountainTextG_9" class="fountainTextG">z</div>
+        <div id="fountainTextG_10" class="fountainTextG">a</div>
+        <div id="fountainTextG_11" class="fountainTextG">r</div>
+        </div>
+    </div>
+    <!-- preloader setion end here  -->
+    
+    <section class="forgot_bg">
+        <header class="head">
+            <div class="headers p-3">
+                <!-- <marquee behavior="alternate" direction="left" width="100%"> -->
+                    <span class="firstText">Fayda</span>
+                    <span class="secondText">bazar</span>
+                    <span id="no_space" class="firstText">Tech</span>
+                    <span class="secondText px-2 mt-0">Pvt. Ltd</span>
+                <!-- </marquee> -->
+            </div>
+        </header>
+    
+        <section class="sub-header mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="company_id">
+                            <div class="sub_head d-flex">
+                                <h2 class="firstText">Fayda</h2>
+                                <h2 class="secondText">bazar</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="today_info mt-lg-4 p-3">
+                            <div class="timing">
+                                <span class="login_info d-flex align-items-center pt-0 px-3">
+                                    <img src="./image/Login-Information.png" alt="login-information">
+                                    <span class="px-2"> : </span>
+                                    <span class="px-0">SuperDistributor Login</span>
+                                </span>
+                                <h6 id="worl_wide__time" class="pt-2 px-3">
+                                    <img src="./image/home_service.png" alt="unlock password">
+                                    <span class="px-1"> : </span>
+                                    <span id="day"></span>/
+                                    <span id="month"></span>/
+                                    <span id="year"></span>
+                                    <span id="weekday" class="px-1"></span>
+                                    <span id="time"></span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="form__fogot_pass">
+            <div class="container">
+                <h4 class="text-center pt-2">Forgot Password</h4>
+                <div class="d-flex justify-content-around">
+                    <div class="forgot_pass_image mt-3">
+                        <img src="./image/forgot_pass.png" alt="forgot password">
+                    </div>
+                    <div class="forgot_login mt-1">
+                        <label for="Enter Menber_Id/Mobile_no">Enter Member_Id / Mobile_no</label>
+                        <input id="password-field" type="password" class="form-control text-nowrap mt-2" name="password">
+                        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                        <small id="msg1"></small><br>
+                        <button type="submit" class="forgot-action mt-2" id="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/preloader.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/forgotPass.js"></script>
+    <script src="./js/forgotFrom.js"></script>
+
+    <script>
+        $(".toggle-password").click(function() {
+            $(this).toggleClass("fa-eye fa-eye-slash");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+              input.attr("type", "text");
+            } else {
+              input.attr("type", "password");
+            }
+        });
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,1053 @@
+@media (max-width: 400px){
+
+    .heading h5{
+        padding-top: 2.5rem;
+    }
+
+    .plan_info{
+        padding-left: .8rem;
+    }
+
+    .plan_info h4{
+        font-size: 1rem;
+        padding-top: .8rem;
+    }
+
+    .plan_info h5{
+        font-size: 1.4rem;
+    }
+
+    .plan_info h6{
+        font-size: .5rem !important;
+    }
+
+    .plan_info p{
+        min-width: 100% !important;
+        flex-wrap: wrap;
+        font-size: 15px;
+        /* padding: 0 3rem 0 .6rem !important; */
+    }
+
+    .mlm-post{
+        flex-wrap: wrap;
+    }
+
+    .mlm-post video{
+        display: block;
+    }
+
+    .big-title{
+        font-size: 2rem !important;
+    }
+
+    .small-title{
+        font-size: 1.2rem !important;
+        top: .65rem !important;
+    }
+
+    #form{
+        width: auto;
+        margin: 2rem !important;
+    }
+
+    .today_info span{
+        font-weight: 600;
+        font-size: .6rem !important;
+    }
+
+    .today_info span{
+        font-weight: 600;
+        font-size: 4.5vw;
+    }
+
+    #time{
+        margin-left: 3.4rem;
+    }
+
+    .forgot_bg{
+        max-height: 55vh !important;
+   }
+
+   .form{
+        height: auto;
+   }
+
+   #firstletter{
+        font-size: 28px;
+    }
+
+    #secondletter{
+        font-size: 28px;
+    }
+
+    .testimonials .carousel-item{
+        min-height: 75vh !important;
+    }
+
+    .carousel-caption{
+        top: 0%;
+    }
+    
+    .testimonials h2{
+        font-size: 21px;
+    }
+
+    .carousel-caption p {
+        width: 75% !important;
+        text-align: center;
+    }
+
+    .member_form{
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (width: 540px){
+
+    .fountainTextG{
+        font-size: 5vw;
+    }
+
+    .swiper-slide .banner-text{
+        position: absolute;
+        color: #fff;
+        top: 5rem !important;
+        left: 8rem !important;
+        width: 50%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center  !important;
+    }
+
+    .headings{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    
+    .head-left{
+        padding-left: 0%;
+    }
+
+    .profile-post{
+        width: 100%;
+    }
+
+    .head-left{
+        padding-left: 52% !important;
+    }
+    
+    .secondChild{
+        width: 100%;
+        text-align: center;
+    }
+
+    .forgot_bg{
+        height: 60vh !important;
+   }
+
+    #form{
+        width: auto;
+        margin: 2rem !important;
+    }
+
+    .carousel-caption{
+        top: 10% !important;
+    }
+
+    .testimonials .carousel-item{
+        height: 70vh !important;
+    }
+
+    .categories_images img{
+        height: 35% !important;
+        width: 50% !important;
+    }
+    
+    
+    .member_form{
+        width: 75%;
+        padding: 25px;
+        margin: 5% auto !important;
+    }
+
+    .member_form form{
+        padding: 15px 25px;
+    }
+
+    .member_form label{
+        font-size: 1rem;
+    }
+
+    .member_form input::placeholder{
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 767px) 
+{
+    .preloader{
+        left: 66%;
+        transform: translateX(-50%) !important;
+    }
+
+    .fountainTextG{
+        font-size: 10vw;
+    }
+    
+    body{
+        cursor: unset;
+        overflow-x: hidden !important;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        margin: .2rem;
+        padding: 0;
+    }
+    /* welcome screen css  */
+    .headings{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap;
+        padding: 0 0 0 0;
+        margin-top: -.6rem;
+        height: auto;
+    }
+
+    .headings a{
+        text-align: center;
+    }
+
+    .headings a:first-child{
+        border-right:  unset; 
+        width: 100%;
+    }
+
+    .breaks{
+        display: block;
+    }
+
+    /* banner css start here  */
+    .fixtop{
+        margin-top: -1rem;
+    }
+
+    .item .banner-text p{
+        margin-left: 0;
+    }
+
+    .item{
+        height: 60vh;
+    }
+    
+    .swiper-slide .banner-text{
+        position: absolute;
+        color: #fff;
+        top: 2.2rem;
+        left: 6rem;
+        width: 50%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center  !important;
+    }
+
+    .banner-text h3{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .banner-text h4{
+        font-weight: 400;
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    .banner-text p{
+        font-weight: 500;
+        min-width: 100%;
+        font-size: .7rem;
+        margin-top: .5rem;
+    }
+
+    .banner-text .banner-btn a .banner-action{
+        padding: .4rem 1rem !important;
+        font-size: .9rem;
+        margin-top: -1rem !important;
+    }
+
+    .owl-carousel .item{
+        background-size: 100% 100% !important;
+        max-height : unset;
+        height: 34vh !important;
+    }
+    
+    .item .banner-text p{
+        width: 60vw !important;
+        margin-left: unset !important;
+    }
+    
+    #rel-part{
+        position: relative;
+        height: 45% !important;
+    }
+    
+    #abs-part{
+        position: unset;
+        background-color: #000;
+        margin: 1.5rem 0;
+        padding: 2rem 0;
+    }
+
+    .animate-posts{
+        top: -3.5rem;
+    }
+
+    .about-us{
+        margin-top: 0;
+    }
+    
+    .about-left{
+        width: 100%;
+    }
+
+    .about-action{
+        margin-top: 0;
+    }
+
+    .about-title h3::after{
+        width: 35% !important;
+        left: 33.5%;
+    }
+
+    .about-title h3:hover::after{
+        transform: scaleX(1);
+        color: #fff;
+    }
+
+    .product{
+        margin-top: 2rem;
+    }
+
+    .about-right{
+        margin-top: 3rem;
+    }
+
+    .profile-post{
+        width: 100%;
+        height: 100%;
+    }
+
+    .legal-title h3{
+        font-size: 1.36rem;
+    }
+
+    .why_choose__us___right{
+        padding-top: 1rem;
+    }
+    
+    .footer{
+        padding: 2rem 0;
+    }
+
+    .footer-links__list{
+        display: flex;
+        width: 100% !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .secondChild{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .head-left{
+        padding-left: 9% !important;
+    }
+    
+    .secondChild{
+        width: 100%;
+        text-align: center;
+    }
+
+    .secondChild p{
+        text-align: center;
+    }
+
+    .lastchildText{
+        margin: 2.5rem 0 0 1rem !important;  
+    }
+
+    .to-top a {
+        bottom: 1.5%;
+        right: 2%;
+    }
+
+    .cursor{
+        display: none;
+    }
+
+    .plan_info h5{
+        font-size: 1rem;
+    }
+
+    .plan_info p{
+        min-width: 100% !important;
+        flex-wrap: wrap;
+        font-size: 15px;
+    }
+
+    .mlm-post{
+        flex-wrap: wrap;
+    }
+    
+
+    table{
+        margin: 0 auto !important;
+        padding: 0;
+    }
+
+    table tr td{
+        padding: .5rem .6rem;
+    }
+
+    .member-info h6{
+        font-size: .8rem;
+        text-align: center;
+        padding: 1.5rem 0;
+        padding: 0 1.5rem;
+    }
+
+    .wrappers img{
+        margin-top: -3rem !important;
+        padding: 1rem 0 0 0 !important;
+    }
+
+    .plan_info h4{
+        font-size: 1.2rem;
+        padding-top: .8rem;
+    }
+
+    .mlm-post video{
+        display: block;
+    }
+
+    .big-title{
+        font-size: 2.5rem;
+    }
+
+    .small-title{
+        font-size: 1.5rem;
+        top: .75rem;
+    }
+    
+    .service-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #form{
+        width: auto !important;
+        padding: 1rem !important;
+    }
+
+    .form_logo{
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .table>:not(caption)>*>*{
+        padding: 0.2rem 0.2rem !important;
+    }
+
+    .modalDialog > div {
+        min-height: 100vh !important;
+    }
+
+    .form__fogot_pass{
+        min-width: 95%;
+    }
+
+    
+    .forgot_bg{
+         min-height: 73vh !important;
+    }
+
+    .form__fogot_pass{
+        padding: 0 0 0 0;
+        margin: 2.5rem auto;
+    }
+
+    #deleteForm{
+        overflow: scroll;
+    }
+
+    .form{
+        height: 60vh !important;
+   }
+
+   .form-entry{
+        width: 100%;
+        margin: auto;
+        padding: .5rem;
+    }
+
+    .main{
+        padding: 1rem 0;
+    }
+
+    .text{
+        display: block;
+    }
+
+    .text1{
+        display: none;
+    }
+
+    .owl-carousel .owl-item img {
+        min-height: 100% !important;
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .animate-posts {
+        height: 3rem;
+        width: 3rem;
+        top: 1rem;
+    }
+
+    .our_policies h4{
+        font-size: 1.1rem;
+    }
+
+    .our_policies p{
+        font-size: .9rem;
+    }
+
+    .categories .cat_details{
+        justify-content: space-between !important;
+    }
+
+    .top_space{
+        margin-top: 2rem !important;
+    }
+
+    .bottom_space{
+        margin-top: unset;
+    }
+
+    .nav-item:first-child{
+        margin-top: 25px !important;
+    }
+
+    .nav-item:last-child{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    
+    .nav_logo {
+        width: 20vw;
+    }
+
+    .carousel-caption{
+        top: 7%;
+    }
+
+    .testimonials .carousel-item{
+        height: 55vh;
+    }
+
+    .carousel-caption p {
+        width: 71%;
+        text-align: center;
+    }
+
+    .testimonials h2{
+        font-size: 21px;
+    }
+
+    .card-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-controler{
+        margin-top: 2.5rem;
+    }
+
+    .card-image:nth-child(1){
+        margin-top: 25px;
+    }
+
+    .card-image:nth-child(2){
+        margin-top: 25px;
+    }
+
+    .categories_images img{
+        height: 40% !important;
+        width: 65% !important;
+    }
+
+    .member_form{
+        width: 80% !important;
+        border: ridge 1.5px white;
+        padding: 1.5rem 1rem; 
+        margin: 15% auto !important;
+    }
+
+    .member_form label{
+        font-size: 1rem;
+    }
+
+    .member_form input::placeholder{
+        font-size: .9rem;
+    }
+
+    .search-wrapper {
+        margin: 0 auto;
+    }
+
+
+    .label {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) { 
+    .headings{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        padding: .7rem 0 .5rem 0;
+        height: auto;
+    }
+
+    .banner-text h3{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .banner-text h4{
+        font-weight: 500;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    
+    .sm-text{
+        font-size: 1rem !important;
+    }
+
+    .item{
+        height: 60vh;
+    }
+
+    .item .banner-text p{
+        margin-left: 0;
+    }
+    
+    .banner-text p{
+        font-weight: 500;
+        min-width: 100%;
+        font-size: 1.2rem !important;
+        margin-top: .9rem;
+    }
+
+    .swiper {
+        width: 100%;
+        height: auto;
+    }
+    
+    .swiper-slide .banner-text{
+        position: absolute;
+        color: #fff;
+        top: 7.5rem;
+        left: 13.2rem;
+        width: 50%;
+    }
+
+    .owl-carousel .item{
+        background-size: 100% 100% !important;
+        max-height : unset;
+        height: 50vh !important; 
+    }
+    
+    .why_choose__us___right{
+        padding-top: 1rem;
+    }
+    
+    .item .banner-text p{
+        width: 60vw !important;
+        margin-left: unset !important;
+    }
+
+    #rel-part{
+        position: relative;
+        height: 45% !important;
+    }
+    
+    #abs-part{
+        position: unset;
+        background-color: #000;
+        margin: 1.5rem 0;
+        padding: 2rem 0;
+    }
+
+    .animate-posts{
+        top: -3.5rem;
+    }
+    
+    
+    .about-left{
+        width: 100%;
+    }
+
+    .about-title h3::after{
+        width: 35% !important;
+        left: 33.5%;
+    }
+
+    .about-title h3:hover::after{
+        transform: scaleX(1);
+        color: #fff;
+    }
+
+    .about-right{
+        margin-top: 3rem;
+    }
+
+    .profile-post{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .footer-links{
+        padding-top: 2.5rem;
+    }
+
+    .address-details{
+        padding-top: 1rem;
+    }
+
+    .cursor{
+        display: none;
+    }
+
+    .member-info{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+        flex-direction: column;
+        border-spacing: 3rem !important;
+        flex-wrap: wrap;
+    }
+
+    .mlm-post video{
+        display: block;
+        width: 50%;
+    }
+
+    #form{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        align-items: unset;
+        width: 25rem !important;
+        padding: 1rem 0 3rem 1rem !important;
+    }
+
+    .modalDialog > div {
+        height: 60vh !important;
+    }
+
+    .form__fogot_pass{
+        width: 100%;
+        max-width: 60%;
+    }
+
+    .forgot_bg{
+        height :  100vh !important;
+    }
+
+    #deleteForm{
+        overflow: scroll;
+    }
+
+    .copyrights{
+        font-size: 1rem;
+    }
+
+    .form{
+        min-height: 94vh !important;
+    }
+
+    .testimonials h2{
+        font-size: 40px !important;
+    }
+
+    .testimonials .carousel-item{
+        min-height: 40vh !important;
+    }
+
+    .carousel-caption p {
+        width: 60%;
+        text-align: center;
+    }
+
+    .categories_images img{
+        height: 60% !important;
+        width: 65% !important;
+    }
+
+    .member_form{
+        width: 50%;
+        border: ridge 1.5px white;
+        padding: 20px;
+        margin: 12% auto;
+    }
+
+    .member_form label{
+        font-size: 1.5rem;
+    }
+
+    .member_form input::placeholder{
+        font-size: 1.1rem;
+    }
+
+    .location-wrapper .label,
+    .search-wrapper .label
+    {
+        font-size: .8rem !important;
+    }
+}
+
+@media only screen and (width: 912px){
+    .forgot_bg{
+        height :  100vh !important;
+    }
+
+    .testimonials .carousel-item {
+        min-height: 33vh !important;
+    }
+}
+
+ @media (width: 1024px){
+
+    .headings{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem 0 .5rem 0 !important;
+    }
+    
+    .swiper-slide .banner-text{
+        position: absolute;
+        color: #fff;
+        top: 13rem;
+        left: 15.3rem;
+        width: 50%;
+    }
+
+    .banner-text h3{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .banner-text h4{
+        font-weight: 500;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    
+    .sm-text{
+        font-size: 1rem !important;
+    }
+    
+    .item{
+        height: 60vh;
+    }
+
+    .banner-text p{
+        font-weight: 500;
+        min-width: 100%;
+        font-size: 1.2rem !important;
+        margin-top: .9rem;
+    }
+
+    .owl-carousel .item{
+        height: 65vh !important;
+        background-size: 100% 100% !important;
+    }
+    
+    .item .banner-text p{
+        width: 60vw !important;
+        margin-left: unset !important;
+    }
+    
+    #rel-part{
+        position: relative;
+        height: 45% !important;
+    }
+    
+    #abs-part{
+        position: unset;
+        background-color: #000;
+        margin: 1.5rem 0;
+        padding: 2rem 0;
+    }
+
+    .animate-posts{
+        top: -3.5rem;
+    }
+    
+    .about-left{
+        width: 100%;
+    }
+
+    .about-title h3::after{
+        width: 35% !important;
+        left: 33.5%;
+    }
+
+    .about-title h3:hover::after{
+        transform: scaleX(1);
+        color: #fff;
+    }
+
+    .about-right{
+        margin-top: 3rem;
+    }
+
+    .profile-post{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-links h3 {
+        margin-left: -.5rem;
+    }
+
+    iframe{
+        height: 80vh !important;
+    }
+
+    .mlm-post video{
+        display: block;
+        width: 50%;
+    }
+
+    table{
+        display: flex !important;
+        justify-content: center !important;
+        width: 100%;
+    }
+
+    .sponsor{
+        width: 100% !important;
+    }
+
+    .form__fogot_pass{
+        width: 100%;
+        max-width: 60%;
+    }
+
+    
+    .form__fogot_pass{
+        margin: 2rem auto;
+    }
+
+    .forgot_bg{
+        height :  auto !important;
+    }
+
+    .form h2{
+        margin-top: -.8rem !important;
+    }
+
+    .categories_images img{
+        height: 60% !important;
+        width: 100% !important;
+    }
+
+    .carousel-caption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .testimonials .carousel-item {
+        min-height: 65vh !important;
+    }
+
+    .icon-controler .mt-5 {
+        margin-top: 1.8rem !important;
+    }
+
+    .member-info .wrappers img{
+        width: 100%;
+    }
+    
+
+    
+}
+
+@media (min-width: 992px){
+    .member_form{
+        width: 28% !important;
+        border: ridge 1.5px white;
+        padding: 20px;
+        margin: 7% auto !important; 
+    }
+
+    .member_form label{
+        font-size: 1.2rem;
+    }
+
+    .member_form input::placeholder{
+        font-size: 1.1rem;
+    }
+
+    
+}
+
+
+@media (width: 1280px){
+    
+    #abs-part{
+        position: absolute;
+        top: 57.52rem;
+        left: 5rem;
+    }
+
+   .icon-controler .mt-5 {
+        margin-top: 1.8rem !important;
+    }
+
+    .member_form{
+        width: 50%;
+        border: ridge 1.5px white;
+        padding: 20px;
+        /* margin: 15% auto; */
+    }
+
+    .member_form label{
+        font-size: 1.5rem;
+    }
+
+    .member_form input::placeholder{
+        font-size: 1.1rem;
+    }
+
+}

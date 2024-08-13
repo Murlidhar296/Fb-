@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    cursor: default !important;
+    pointer-events: all;
+    height : unset;
+}
+
+
+.terms_condition{
+    animation: 1s .9s flipInX both;
+}
+
+.hero_carosel .item, .owl-carousel .item {
+    height: 50vh !important;
+}
+
+.points p{
+    color: rgba(36, 36, 36, 0.8) !important;
+}
+
+.text-bolder{
+    font-weight: 600 !important;
+    color : #ff6600;
+    padding-bottom: .5rem;
+}
+
+.text-bolder:hover{
+    color: royalblue !important;
+}   
+
+
+@keyframes fadeInUp{
+    0%{
+        opacity:0;
+        transform:translate3d(0,0,-100%);
+    }
+    to{
+        opacity:1;
+        transform:translateZ(0)
+    }
+ }
+ 
+ .fadeInUp{
+    animation-name:fadeInUp;
+ }
+ 
+ .sp-one{
+    color: #fff !important;
+}
+
+/* .points h4{
+    text-decoration: underline;
+    text-decoration-color: #ff6600;
+} */
+
+.sp-one:hover{
+    color: linear-gradient(to right, #ff6600, royalblue);
+}   
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: -.50em;
+    margin-left: 0.125em;
+    animation: moves .5s;
+  }
+
+  @keyframes moves{
+    from{
+        transform: unset;
+        transition: unset;
+    }
+    to{
+        transform: unset;
+    }
+}
+
+.footer-links .quick_links ul li{
+    list-style-type: square !important ;
+    padding: .3rem 0 0 0;
+    /* color: #fff; */
+}   
+
+.footer-links .quick_links ul li a:hover{
+    color: orangered !important;
+    font-weight: 600;
+    transition: unset;
+    font-size: unset;
+    letter-spacing: unset;
+}
+
+#top-mains .footer-links .quick_links ul li{
+    list-style-type: unset;
+    padding: 0.2rem 0;
+}
+
+.nav-item.dropdown a{
+    color: #fff !important;
+ }
+
+.dropdown-menu{
+    background-color: #ff6655!important;
+}
+
+.nav-item.dropdown:hover ul li{
+   list-style-type: none !important;
+}
+
+.nav-link.dropdown-toggle:hover ul li {
+    list-style-type: none !important;
+    background-color: #fff !important;
+    
+}
+
+.dropdown-item:hover{
+    background-color: #526bbb !important;
+}
+
+.navbar .nav-item.dropdown .nav-link.dropdown-toggle:hover .dropdown-item{
+    background-color: unset !important;
+    color: royalblue !important;
+}
+
+.nav-link.dropdown-toggle:hover .dropdown-item{
+    color: royalblue !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 2.3rem;
+}
+

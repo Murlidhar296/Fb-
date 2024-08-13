@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Login Form</title>
+    <link rel="icon" href="./image/footerlogo.png">
+    <link rel="stylesheet" href="./css/preloaders.css">
+    <!-- <link rel="stylesheet" href="./css/about.css"> -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/memberRegistrationForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <!-- <link rel="stylesheet" href="./css/responsive.css"> -->
+</head>
+<body>
+
+    <!-- preloader section end here  -->
+        <div class="preloader">
+            <div id="fountainTextG">
+            <div id="fountainTextG_1" class="fountainTextG">F</div>
+            <div id="fountainTextG_2" class="fountainTextG">a</div>
+            <div id="fountainTextG_3" class="fountainTextG">y</div>
+            <div id="fountainTextG_4" class="fountainTextG">d</div>
+            <div id="fountainTextG_5" class="fountainTextG">a</div>
+            <div id="fountainTextG_6" class="fountainTextG"></div>
+            <div id="fountainTextG_7" class="fountainTextG">B</div>
+            <div id="fountainTextG_8" class="fountainTextG">a</div>
+            <div id="fountainTextG_9" class="fountainTextG">z</div>
+            <div id="fountainTextG_10" class="fountainTextG">a</div>
+            <div id="fountainTextG_11" class="fountainTextG">r</div>
+            </div>
+        </div>
+
+        <div class="navbar-all">
+            <div class="container p-0">
+                <div class="row justify-content-between align-items-center">
+                    <nav class="navbar navbar-expand-lg bg-light d-flex justify-content-between align-items-center">
+                        <a class="navbar-brand d-flex" href="./index.html">
+                            <div class="form__logo ms-2">
+                                <img src="./image/fav-logo.png" alt="Form Logo" title="Form logo" class="w-100">
+                            </div>
+                        </a>
+                        <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-light"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item me-1">
+                                    <a class="btn btn-primary" href="./index.html" role="button">Home</a>
+                                </li>
+                                <li class="nav-item me-5">
+                                    <a class="btn btn-primary" href="./memberlogin.html" role="button">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>  
+                </div>
+            </div>
+        </div>
+   
+    <!-- form section start here  -->
+        <section class="form">
+            <div class="container">
+            <h2 class="animate text-bold text-center">Member Registration Form</h2>
+             <form class="form-start my-3" method="post" action="process_registration.php">
+                <div class="container">
+                    <div class="sponsor">
+                        <div class="row px-2">
+                            <h2>Sponsor Info</h2>
+                            <div class="d-flex p-2 sponsor_one" style="box-shadow: .2rem .3rem .3rem royalblue">   
+                                <div class="col-lg-2 col-md-2 col-sm-2  border">
+                                    <h4 class="pt-2">Sponsor Id</h4>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-sm-1 text-center pt-3 border-1 rounded">:</div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 border p-2">
+                                    <input type="email" class="form-control sponsor_id " id="sponsor_id">
+                                    <small id="msg1"></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sponsor">
+                        <h2 class="mt-5 mb-2">Personal Information :-</h2>
+                        <table class="table table-responsive" border="2">
+                            <tbody>
+                                <tr>    
+                                    <div class="d-flex">   
+                                        <div class="row">
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">First Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="text" class="form-control p-2" id="fName">
+                                                </div>
+                                                <small id="msg2"></small>
+                                            </th>
+                                        </div>
+                                    </div>
+                                </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">Father Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="text" class="form-control sponsor_id p-2" id="father_name">
+                                                </div>
+                                                <small id="msg3"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">Last Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="text" class="form-control  p-2 w-100" id="lName">
+                                                </div>
+                                                <small id="msg4"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">D.O.B</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="date" class="form-control sponsor_id p-2 w-100" id="dob">
+                                                </div>
+                                                <small id="msg5"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">Occupation</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Select Occupation</option>
+                                                        <option value="Accountant">Accountant</option>
+                                                        <option value="Actor">Actor</option>
+                                                        <option value="Actress">Actress</option>
+                                                        <option value="Architect">Architect</option>
+                                                        <option value="Artist">Artist</option>
+                                                        <option value="Attorney">Attorney</option>
+                                                        <option value="Baker">Baker</option>
+                                                        <option value="Bartender">Bartender</option>
+                                                        <option value="Barber">Barber</option>
+                                                        <option value="Builder">Builder</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Carpenter">Carpenter</option>
+                                                        <option value="Cashier">Cashier</option>
+                                                        <option value="Chef">Chef</option>
+                                                        <option value="Coach">Coach</option>
+                                                        <option value="Dentist">Dentist</option>
+                                                        <option value="Designer">Designer</option>
+                                                        <option value="Developer">Developer</option>
+                                                        <option value="Government Job">Government Job</option>
+                                                        <option value="Private Job">Private Job</option>
+                                                        <option value="Other">Other</option>
+                                                        <option value="Digital Marketing Agency">Digital Marketing Agency</option>
+                                                        <option value="Dietician">Dietician</option>
+                                                        <option value="Doctor">Doctor</option>
+                                                        <option value="Economist">Economist</option>
+                                                        <option value="Editor">Editor</option>
+                                                        <option value="Electrician">Electrician</option>
+                                                        <option value="Farmer">Farmer</option>
+                                                        <option value="Filmaker">Filmaker</option>
+                                                        <option value="Fisherman">Fisherman</option>
+                                                        <option value="Jeweller">Jeweller</option>
+                                                        <option value="Judge">Judge</option>
+                                                        <option value="Lawyer">Lawyer</option>
+                                                        <option value="Mechanic">Mechanic</option>
+                                                        <option value="Musician">Musician</option>
+                                                        <option value="Nutritionist">Nutritionist</option>
+                                                        <option value="Nurse">Nurse</option>
+                                                        <option value="Optician">Optician</option>
+                                                        <option value="Painter">Painter</option>
+                                                        <option value="Pharmacist">Pharmacist</option>
+                                                        <option value="Physian">Physian</option>
+                                                        <option value="Pilot">Pilot</option>
+                                                        <option value="Plumber">Plumber</option>
+                                                        <option value="Police Officer">Police Officer</option>
+                                                        <option value="Politician">Politician</option>
+                                                        <option value="Professor">Professor</option>
+                                                        <option value="Programmer">Programmer</option>
+                                                        <option value="Receptionist">Receptionist</option>
+                                                        <option value="SalesWoman">SalesWoman</option>
+                                                        <option value="Secretary">Secretary</option>
+                                                        <option value="Singer">Singer</option>
+                                                        <option value="Surgeon">Surgeon</option>
+                                                        <option value="Teacher">Teacher</option>
+                                                        <option value="Therapist">Therapist</option>
+                                                        <option value="Translator">Translator</option>
+                                                        <option value="UnderTaker">UnderTaker</option>
+                                                        <option value="Vaterinarian">Vaterinarian</option>
+                                                        <option value="Videographer">Videographer</option>
+                                                        <option value="Waiter">Waiter</option>
+                                                        <option value="waitress">waitress</option>
+                                                        <option value="Writer">Writer</option>
+                                                    </select>
+                                                </div>
+                                                <small id="msg6"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                </tbody>
+                        </table>
+                    </div>
+                    <div class="sponsor">
+                        <h2 class="mt-5 mb-2">Nominee Information :-</h2>
+                        <table class="table table-responsive table-bordered">
+                            <tbody>
+                                <tr>    
+                                    <div class="d-flex">   
+                                            <div class="row">
+                                            <th>
+                                                <div class="col-sm-2 col-md-2 col-lg-2">
+                                                    <h6 class="pt-1">Nominee name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control sponsor_id p-2" id="nominee_name">
+                                                </div>
+                                                <small id="msg7"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">Nominee Age</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="number" class="form-control sponsor_id p-2 w-100" id="nominee_age">
+                                                </div>
+                                                <small id="msg8"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">Nominee Relation</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <!-- <input type="text" class="form-control sponsor_id p-2 w-100" id=" nominee_relation" class="text-end"> -->
+                                                    <select class="form-select" aria-label="Default select example" id=" nominee_relation">
+                                                        <option selected>Select Relation</option>
+                                                        <option value="Mother">Mother</option>
+                                                        <option value="Father">Father</option>
+                                                        <option value="Brother">Brother</option>
+                                                        <option value="Sister">Sister</option>
+                                                        <option value="Wife">Wife</option>
+                                                        <option value="Husband">Husband</option>
+                                                        <option value="Other">Other</option>
+                                                    </select>
+                                                </div>
+                                                <small id="msg9"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="sponsor two">
+                        <h2 class="mt-5 mb-2">Contact Information :-</h2>
+                        <table class="table table-responsive table-bordered">
+                            <tbody>
+                                <tr>    
+                                    <div class="d-flex">   
+                                            <div class="row">
+                                            <th>
+                                                <div class="col-lg-2">
+                                                    <h6 class="pt-1">Country Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-lg-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-lg-9">
+                                                    <select class="form-select" id="countries_name" aria-label="Default select example" onchange="loadStates()">
+                                                        <option selected>Select Country</option>
+                                                </select>
+                                                </div>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-lg-2">
+                                                    <h6 class="pt-1">State Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-lg-1 text-center pt-2">:</th>
+                                            <th>
+                                                <div class="col-lg-9">
+                                                    <select class="form-select" id="state_update" aria-label="Default select example" onchange="loadCities()">
+                                                        <option selected>Select State</option>
+                                                    </select>
+                                                </div>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-lg-2">
+                                                    <h6 class="pt-1">District Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-lg-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-lg-9">
+                                                    <select class="form-select" aria-label="Default select example" id="district_update">
+                                                        <option selected>Select District</option>
+                                                        <!-- <option value="Accountant">Accountant</option>
+                                                        <option value="Actor">Actor</option>
+                                                        <option value="Actress">Actress</option>
+                                                        <option value="Architect">Architect</option>
+                                                        <option value="Artist">Artist</option>
+                                                        <option value="Attorney">Attorney</option>
+                                                        <option value="Baker">Baker</option>
+                                                        <option value="Bartender">Bartender</option>
+                                                        <option value="Barber">Barber</option>
+                                                        <option value="Builder">Builder</option>
+                                                        <option value="Business">Business</option>
+                                                        <option value="Carpenter">Carpenter</option>
+                                                        <option value="Cashier">Cashier</option>
+                                                        <option value="Chef">Chef</option>
+                                                        <option value="Coach">Coach</option>
+                                                        <option value="Dentist">Dentist</option>
+                                                        <option value="Designer">Designer</option>
+                                                        <option value="Developer">Developer</option>
+                                                        <option value="Government Job">Government Job</option>
+                                                        <option value="Private Job">Private Job</option>
+                                                        <option value="Other">Other</option>
+                                                        <option value="Digital Marketing Agency">Digital Marketing Agency</option>
+                                                        <option value="Dietician">Dietician</option>
+                                                        <option value="Doctor">Doctor</option>
+                                                        <option value="Economist">Economist</option>
+                                                        <option value="Editor">Editor</option>
+                                                        <option value="Electrician">Electrician</option>
+                                                        <option value="Farmer">Farmer</option>
+                                                        <option value="Filmaker">Filmaker</option>
+                                                        <option value="Fisherman">Fisherman</option>
+                                                        <option value="Jeweller">Jeweller</option>
+                                                        <option value="Judge">Judge</option>
+                                                        <option value="Lawyer">Lawyer</option>
+                                                        <option value="Mechanic">Mechanic</option>
+                                                        <option value="Musician">Musician</option>
+                                                        <option value="Nutritionist">Nutritionist</option>
+                                                        <option value="Nurse">Nurse</option>
+                                                        <option value="Optician">Optician</option>
+                                                        <option value="Painter">Painter</option>
+                                                        <option value="Pharmacist">Pharmacist</option>
+                                                        <option value="Physian">Physian</option>
+                                                        <option value="Pilot">Pilot</option>
+                                                        <option value="Plumber">Plumber</option>
+                                                        <option value="Police Officer">Police Officer</option>
+                                                        <option value="Politician">Politician</option>
+                                                        <option value="Professor">Professor</option>
+                                                        <option value="Programmer">Programmer</option>
+                                                        <option value="Receptionist">Receptionist</option>
+                                                        <option value="SalesWoman">SalesWoman</option>
+                                                        <option value="Secretary">Secretary</option>
+                                                        <option value="Singer">Singer</option>
+                                                        <option value="Surgeon">Surgeon</option>
+                                                        <option value="Teacher">Teacher</option>
+                                                        <option value="Therapist">Therapist</option>
+                                                        <option value="Translator">Translator</option>
+                                                        <option value="UnderTaker">UnderTaker</option>
+                                                        <option value="Vaterinarian">Vaterinarian</option>
+                                                        <option value="Videographer">Videographer</option>
+                                                        <option value="Waiter">Waiter</option>
+                                                        <option value="waitress">waitress</option>
+                                                        <option value="Writer">Writer</option> -->
+                                                    </select>
+                                                </div>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-lg-2 col-sm-2">
+                                                    <h6 class="pt-1">City Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="text" class="form-control sponsor_id p-2 w-100" id="city_name">
+                                                </div>
+                                                <small id="msg13"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-lg-2 col-sm-2">
+                                                    <h6 class="pt-1">Address</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-2">:</th>
+                                            <th>
+                                                <div class="col-sm-8 w-100">
+                                                    <input type="text" class="form-control sponsor_id p-2 w-100" id="address">
+                                                    <small id="msg14"></small>
+                                                </div>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-lg-2 col-sm-2">
+                                                    <h6 class="pt-1">PIN Code</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="text" class="form-control sponsor_id p-2 w-100" id="pin_code">
+                                                </div>
+                                                <small id="msg15"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th class="w-25">
+                                                <div class="col-lg-2 col-sm-2">
+                                                    <h6 class="pt-1">Email</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="email" class="form-control p-2 w-100" id="email">
+                                                </div>
+                                                <small id="msg16"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-lg-2 col-sm-2">
+                                                    <h6 class="pt-1">Mobile</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="number" class="form-control sponsor_id p-2 w-100" id="mobile">
+                                                </div>
+                                                <small id="msg17"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">WhatsApp Number</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="number" class="form-control sponsor_id p-2 w-100" id="whats_app">
+                                                </div>
+                                                <small id="msg18"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">Adhar Number</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="number" class="form-control sponsor_id p-2 w-100" id="adhar_number">
+                                                </div>
+                                                <small id="msg19"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">PAN Number</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-9 w-100">
+                                                    <input type="number" class="form-control sponsor_id p-2 w-100" id="pan_number">
+                                                </div>
+                                                <small id="msg20"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                </tbody>
+                        </table>
+                    </div>
+                    <div class="sponsor">
+                        <h2 class="mt-5 mb-2">Bank Details :-</h2>
+                        <table class="table table-responsive table-bordered">
+                            <tbody>
+                                <tr>    
+                                    <div class="d-flex">   
+                                            <div class="row">
+                                                <th>
+                                                    <div class="col-sm-3">
+                                                        <h6 class="pt-1">Bank Name</h6>
+                                                    </div>
+                                                </th>
+                                                <th class="col-sm-1 text-center pt-4">:</th>
+                                                <th>
+                                                    <div class="col-sm-8 w-100">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Select Your Bank</option>
+                                                            <option value="BANK OF BARODA">BANK OF BARODA</option>
+                                                            <option value="ADC BANK">ADC BANK</option>
+                                                            <option value="AKOLA DISTRICT CENTRAL CO-OPERATIVE BANK">AKOLA DISTRICT CENTRAL CO-OPERATIVE BANK</option>
+                                                            <option value="AKOLA JANATA COMMERCIAL CO-OPERATIVE BANK">AKOLA JANATA COMMERCIAL CO-OPERATIVE BANK</option>
+                                                            <option value="ALLAHABAD BANK">ALLAHABAD BANK</option>
+                                                            <option value="ALMORA URBAN COOPERATIVE BANK LTD">ALMORA URBAN COOPERATIVE BANK LTD</option>
+                                                            <option value="AANDHRA BANK">AANDHRA BANK</option>
+                                                            <option value="AANDHRA PRAGATHI GRAMEENA BANK">AANDHRA PRAGATHI GRAMEENA BANK </option>
+                                                            <option value="APNA SAHAKARI BANK LTD">APNA SAHAKARI BANK LTD</option>
+                                                            <option value="AU SMALL FINANNCE BANK">AU SMALL FINANNCE BANK</option>
+                                                            <option value="AXIS BANK">AXIS BANK</option>
+                                                            <option value="BANDHAN BANK LTD">BANDHAN BANK LTD</option>
+                                                            <option value="BANK OF INDIA">BANK OF INDIA</option>
+                                                            <option value="BANK OF MAHARASHTRA">BANK OF MAHARASHTRA</option>
+                                                            <option value="BARCLAYS BANK PLC">BARCLAYS BANK PLC</option>
+                                                            <option value="BARODA RAAJASTHAN KSHETRIYA GRAMIN BANK">BARODA RAAJASTHAN KSHETRIYA GRAMIN BANK</option>
+                                                            <option value="BHARTIYA MAHILA BANK LIMITED">BHARTIYA MAHILA BANK LIMITED</option>
+                                                            <option value="BNP PARIBAS">BNP PARIBAS</option>
+                                                            <option value="CANARA BANK">CANARA BANK</option>
+                                                            <option value="CENTRAL BANK OF INDIA">CENTRAL BANK OF INDIA</option>
+                                                            <option value="CITIBANK NA">CITIBANK NA</option>
+                                                            <option value="CITIZEN CREDIT CO-OPERATIVE BANK LTD">CITIZEN CREDIT CO-OPERATIVE BANK LTD</option>
+                                                            <option value="CITY UNION BANK LTD">CITY UNION BANK LTD</option>
+                                                            <option value="CORPORATION BANK">CORPORATION BANK</option>
+                                                            <option value="DBS BANK LTD">DBS BANK LTD</option>
+                                                            <option value="DCB BANK LTD">DCB BANK LTD</option>
+                                                            <option value="DENA BANK">DENA BANK</option>
+                                                            <option value="DEUSTCHE BANK">DEUSTCHE BANK</option>
+                                                            <option value="DEUTSCHE SECURITIES INDIA PRIVATE LIMITED">DEUTSCHE SECURITIES INDIA PRIVATE LIMITED</option>
+                                                            <option value="DEVELOPEMENT CREDIT BANK LIMITED">DEVELOPEMENT CREDIT BANK LIMITED</option>
+                                                            <option value="DHANLAXMI BANK LTD">DHANLAXMI BANK LTD</option>
+                                                            <option value="DICGE">DICGE</option>
+                                                            <option value="HDFC">HDFC</option>
+                                                            <option value="HDFC BANK LTD">HDFC BANK LTD</option>
+                                                            <option value="ICICI BANK LTD">ICICI BANK LTD</option>
+                                                            <option value="IDBI BANK LTD">IDBI BANK LTD</option>
+                                                            <option value="IDFC BANK LTD">IDFC BANK LTD</option>
+                                                            <option value="INDIAN BANK">INDIAN BANK</option>
+                                                            <option value="INDIAN OVERSEAS BANK">INDIAN OVERSEAS BANK</option>
+                                                            <option value="INDUSIND BANK LTD">INDUSIND BANK LTD</option>
+                                                            <option value="ING VYSYA BANK LTD">ING VYSYA BANK LTD</option>
+                                                            <option value="JAMMU AND KASHMIR BANK LIMITED">JAMMU AND KASHMIR BANK LIMITED</option>
+                                                            <option value="JANKALYAN SHAHAKARI BANK LTD">JANKALYAN SHAHAKARI BANK LTD</option>
+                                                            <option value="KARNATAKA BANK LIMITED">KARNATAKA BANK LIMITED</option>
+                                                            <option value="KARNATAKA VIKAS GRAMEENA BANK">KARNATAKA VIKAS GRAMEENA BANK</option>
+                                                            <option value="KARUR VYSYA BANK">KARUR VYSYA BANK</option>
+                                                            <option value="KASHI GOMTI SAMYUT GRAMEEN BANK">KASHI GOMTI SAMYUT GRAMEEN BANK</option>
+                                                            <option value="KERAALA GRAMIN BANK">KERAALA GRAMIN BANK</option>
+                                                            <option value="KOTAK MAHINDRA BANK">KOTAK MAHINDRA BANK</option>
+                                                            <option value="MAHANAGAR COOP BANK LTD">MAHANAGAR COOP BANK LTD</option>
+                                                            <option value="MAHARASHTRA STAATE CO-OPERATIVE BANK ">MAHARASHTRA STAATE CO-OPERATIVE BANK </option>
+                                                            <option value="OBC">OBC</option>
+                                                            <option value="ORIENTAL BANK OF COMMERCE">ORIENTAL BANK OF COMMERCE</option>
+                                                            <option value="PUNJAB NATIONAL BANK">PUNJAB NATIONAL BANK</option>
+                                                            <option value="PUNJAB">PUNJAB</option>
+                                                            <option value="PUNJAB AND MAHARASHTRA CO-OP BANK LTD">PUNJAB AND MAHARASHTRA CO-OP BANK LTD</option>
+                                                            <option value="PUNJAB AND SIND BANK">PUNJAB AND SIND BANK</option>
+                                                            <option value="PURVANCHAL GRAMIN BANK">PURVANCHAL GRAMIN BANK</option>
+                                                            <option value="RAJASTHAN MARUDHARA GRAMIN BANK">RAJASTHAN MARUDHARA GRAMIN BANK</option>
+                                                            <option value="RESERVE BANK OF INDIA">RESERVE BANK OF INDIA</option>
+                                                            <option value="SOUTH INDIAN BANK">SOUTH INDIAN BANK</option>
+                                                            <option value="STATE BANK OF BIKANER AND JAIPUR">STATE BANK OF BIKANER AND JAIPUR</option>
+                                                            <option value="STATE BANK OF HYDERABAD">STATE BANK OF HYDERABAD</option>
+                                                            <option value="STATE BANK OF INDIA">STATE BANK OF INDIA</option>
+                                                            <option value="STATE BANK OF MYSORE">STATE BANK OF MYSORE</option>
+                                                            <option value="STATE BANK OF PATIALA">STATE BANK OF PATIALA </option>
+                                                            <option value="STAATE BANK OF SAURASHTRA">STAATE BANK OF SAURASHTRA</option>
+                                                            <option value="STAATE BANK OF TRAVANCORE">STAATE BANK OF TRAVANCORE</option>
+                                                            <option value="SYNDICATE BANK">SYNDICATE BANK</option>
+                                                            <option value="THE ANDHRA PRADESH STATE COOPERATIVE BANK LIMITED">THE ANDHRA PRADESH STATE COOPERATIVE BANK LIMITED</option>
+                                                            <option value="THE FEDERAL BANK LTD">THE FEDERAL BANK LTD</option>
+                                                            <option value="THE JAMMU AND KASHMIR BANK LTD">THE JAMMU AND KASHMIR BANK LTD</option>
+                                                            <option value="THE WEST BANGAL STATE COOPERATIVE BANK ">THE WEST BANGAL STATE COOPERATIVE BANK </option>
+                                                            <option value="UCO BANK">UCO BANK</option>
+                                                            <option value="UNION BANK OF INDIA">UNION BANK OF INDIA </option>
+                                                            <option value="UNITED BANK OF INDIA">UNITED BANK OF INDIA</option>
+                                                            <option value="UNITED OVERSEAS BANK">UNITED OVERSEAS BANK</option>
+                                                            <option value="YES BANK">YES BANK</option>
+                                                            <option value="YES BANK LTD">YES BANK LTD</option>
+                                                        </select>
+                                                    </div>
+                                                </th>
+                                            </div>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-3">
+                                                    <h6 class="pt-1">Account Type</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-8 w-100">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Select Account Type</option>
+                                                        <option value="Saving Account">Saving Account</option>
+                                                        <option value="Current Account">Current Account</option>
+                                                    </select>
+                                                </div>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-3">
+                                                    <h6 class="pt-1">Account Holder Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-1 text-center pt-2">:</th>
+                                            <th>
+                                                <div class="col-8 w-100">
+                                                    <input type="text" class="form-control sponsor_id p-2 w-100" id="account_number">
+                                                </div>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-3">
+                                                    <h6 class="pt-1">Account Number</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-8 w-100">
+                                                    <input type="text" class="form-control sponsor_id p-2 w-100">
+                                                </div>
+                                                <small id="msg24"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-3">
+                                                    <h6 class="pt-1">Branch Name</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-8 w-100">
+                                                    <input type="text" class="form-control sponsor_id p-2 w-100" id="branch_name">
+                                                </div>
+                                                <small id="msg25"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div class="d-flex">   
+                                            <th>
+                                                <div class="col-sm-3">
+                                                    <h6 class="pt-1">IFSC Code</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-sm-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-sm-8 w-100">
+                                                    <input type="text" class="form-control sponsor_id p-2 w-100" id="ifsc_code">
+                                                </div>
+                                                <small id="msg26"></small>
+                                            </th>
+                                        </div>
+                                    </tr>
+                                </tbody>
+                        </table>
+                    </div>
+                    <div class="sponsor">
+                        <table class="table table-responsive table-bordered">
+                            <tbody>
+                                <tr>    
+                                    <div class="d-flex clearFix">   
+                                            <div class="row">
+                                            <th>
+                                                <div class="col-sm-2">
+                                                    <h6 class="pt-1">Terms & Condition</h6>
+                                                </div>
+                                            </th>
+                                            <th class="col-lg-1 text-center pt-4">:</th>
+                                            <th>
+                                                <div class="col-lg-9">
+                                                    <section class="termses pt-3 ms-0">
+                                                        <div class="d-flex align-items-center text-nowrap">
+                                                            <input type="checkbox" name="terms" id="agreed" required>
+                                                            <a href="#openModal" class="d-flex px-2 align-content-center">Terms & Condition</a>
+                                                        </div>
+                                                        
+                                                        <div id="openModal" class="modalDialog">
+                                                            <div>
+                                                                <a href="#close" title="Close" class="close">X</a>
+                                                            <ol>
+                                                                <!-- <div class="terms_condition">
+                                                                    <div class="tc_headings d-flex align-items-center text-nowrap">
+                                                                    <img src="./image/T&C.png" alt="terms & condition" title="Our terms and condition" class="w-100">
+                                                                    <h5>Terms and Condition</h5>
+                                                                    </div>
+                                                                </div> -->
+                                                            <h4 class="pt-4 d-flex justify-content-center align-content-center">Members Terms & Condition</h4>
+                                                            <li class="pt-3">
+                                                                <p>Members Package amount (499+18% GST), (This payment is nonrefundable)</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Members Package Valid only 1 Year</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Admin Charges 20% for Package amount</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>All payouts are applicable for TDS of 5%.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Without PAN TDS 20%.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Direct Sponsor Income Rs.200/-</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Referral Income Rs.20/-</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>All Income Transfer in your E-Wallet, we can’t provide cash.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>
+                                                                    All payment transfer within 24 to 48hours.
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Level Bonus is transfer within 10 to 15 Days.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Faydabazar Tech Private Limited policies and T&C are accepting by you, (Privacy & Policy and Terms & Condition),</p>
+                                                            </li>
+                                                            <li>
+                                                                <p> According to the seller's terms and conditions, the seller decides how much discount to give for which item and this is final,</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Company Reserves the all rights to modify the T&C, Product, Marketing plan, Business and other policies at any time without any prior notice,</p>
+                                                            </li>
+                                                            <li>
+                                                                <p> We can call you for welcome, verification etc.. by our company employee through.</p>
+                                                            </li>
+                                                        </ol>
+                                                        </div>
+                                                        </div>
+                                                    </section>
+                                                    <small id="msg27"></small>
+                                                </div>
+                                            </th>
+                                        </div>
+                                    </tr>
+                            </tbody>
+                        </table>   
+                    </div>
+                    <div class="mt-3 px-3 pb-3 mx-5 text-center text-nowrap">
+                        <input type="submit" class="btn btn-primary mx-3" id="submit" value="submit" />
+                        <button type="reset" class="btn btn-primary px-3 mx-3">Reset</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </section>
+    <!-- form section end here  -->
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <!-- <script src="./js/vendorForm.js"></script> -->
+    <script src="./js/memberRegistration.js"></script>
+    <script src="./js/preloader.js"></script>
+    <!-- <script src="./js/preloaders.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
+

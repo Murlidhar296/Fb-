@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Registration Form</title>
+    <link rel="stylesheet" href="./css/preloader.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/vendorReg.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+        <!-- preloader section end here  -->
+          <div class="preloader">
+              <div id="fountainTextG">
+                  <div id="fountainTextG_1" class="fountainTextG">F</div>
+                  <div id="fountainTextG_2" class="fountainTextG">a</div>
+                  <div id="fountainTextG_3" class="fountainTextG">y</div>
+                  <div id="fountainTextG_4" class="fountainTextG">d</div>
+                  <div id="fountainTextG_5" class="fountainTextG">a</div>
+                  <div id="fountainTextG_6" class="fountainTextG"></div>
+                  <div id="fountainTextG_7" class="fountainTextG">B</div>
+                  <div id="fountainTextG_8" class="fountainTextG">a</div>
+                  <div id="fountainTextG_9" class="fountainTextG">z</div>
+                  <div id="fountainTextG_10" class="fountainTextG">a</div>
+                  <div id="fountainTextG_11" class="fountainTextG">r</div>
+              </div>
+          </div>
+        <!-- preloader setion end here  -->
+
+        <!-- <div class="wrap"> -->
+          <div class="main">
+            <header class="vendor_form">
+                <nav class="navbar navbar-expand-lg navbar-light text-white">
+                    <div class="container">
+                      <a class="navbar-brand nav_logo" href="./index.html" >
+                        <img src="./image/fav-logo.png" alt="company_logo" title="company_logo" class="w-100">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-light"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="btn btn-primary" href="./index.html" role="button">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="btn btn-primary" href="./memberlogin.html" role="button">Login</a>
+                          </li>
+                        </ul>
+                    </div>
+                    </div>
+                  </nav>
+            </header>
+    
+            <section class="vendor_registration__form">
+                <div class="container">
+                  <div class="form-entry">
+                    <table class="table">
+                      <div class="text-center">
+                        <h2>Vendor Registration Form</h2>
+                      </div>
+                      <tbody>
+                        <form action="#" id="form" oninput="">
+                          <tr>
+                            <div class="row justify-content-center align-items-center">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Employee ID</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1">  :  </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="Emp_id">
+                                <h6 id="msg1"></h6>
+                              </div>
+                            </div>
+                          </tr>
+
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Vendor Name</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1">:</label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="vendor_name">
+                                <h6 id="msg2"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Firm Name</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1">:</label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="firm_name">
+                                <h6 id="msg3"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Category Of Firm</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1">  :  </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="category_firm">
+                                <h6 id="msg4"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Category</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <label class="text1"> : </label>
+                              </div>
+                              <div class="col-md-5">
+                                <select class="form-select" id="category" aria-label="Default select example">
+                                  <option value="">Select Category</option>
+                                  <option value="Baby Care">Baby Care</option>
+                                  <option value="Panditji">Panditji</option>
+                                  <option value="Press">Press</option>
+                                  <option value="Sports">Sports</option>
+                                  <option value="Vagitable">Vagitable</option>
+                                  <option value="Water Supplier">Water Supplier</option>
+                                  <option value="Gym">Gym</option>
+                                  <option value="DJ Sound">DJ Sound</option>
+                                  <option value="Bakery">Bakery</option>
+                                  <option value="Flour Factory">Flour Factory</option>
+                                  <option value="Fruit">Fruit</option>
+                                  <option value="Advocate">Advocate</option>
+                                  <option value="All Recharge">All Recharge</option>
+                                  <option value="Animal House">Animal House</option>
+                                  <option value="Astrology">Astrology</option>
+                                  <option value="Auto Consult">Auto Consult</option>
+                                  <option value="AutoMobile">AutoMobile</option>
+                                  <option value="Beauty Parlour">Beauty Parlour</option>
+                                  <option value="Book Store">Book Store</option>
+                                  <option value="Cafe">Cafe</option>
+                                  <option value="Car Washing">Car Washing</option>
+                                  <option value="Caterers">Caterers</option>
+                                  <option value="CA">CA</option>
+                                  <option value="Civil Contractor">Civil Contractor</option>
+                                  <option value="Clothes Cleaner">Clothes Cleaner</option>
+                                  <option value="Computer">Computer</option>
+                                  <option value="Consultant">Consultant</option>
+                                  <option value="Contractor">Contractor</option>
+                                  <option value="Cycle Store">Cycle Store</option>
+                                  <option value="Decorator">Decorator</option>
+                                  <option value="Doctor">Doctor</option>
+                                  <option value="Driving School">Driving School</option>
+                                  <option value="Education">Education</option>
+                                  <option value="Electrician">Electrician</option>
+                                  <option value="Electronics">Electronics</option>
+                                  <option value="Electronic Services">Electronic Services</option>
+                                  <option value="Eye Optical">Eye Optical</option>
+                                  <option value="FastFooda">FastFood</option>
+                                  <option value="FootWear">FootWear</option>
+                                  <option value="Furniture">Furniture</option>
+                                  <option value="Grocery Market">Grocery Market</option>
+                                  <option value="Hair Saloon">Hair Saloon</option>
+                                  <option value="Hardware">Hardware</option>
+                                  <option value="Hom Care">Hom Care</option>
+                                  <option value="Hospitals">Hospitals</option>
+                                  <option value="Hotels & PG">Hotels & PG</option>
+                                  <option value="Hotel">Hotel</option>
+                                  <option value="HouseKeeping">HouseKeeping</option>
+                                  <option value="Ice-Cream">Ice-Cream</option>
+                                  <option value="Parlour">Parlour</option>
+                                  <option value="Insurance">Insurance</option>
+                                  <option value="Jewellery">Jewellery</option>
+                                  <option value="Kids Wear">Kids Wear</option>
+                                  <option value="Laboratory">Laboratory</option>
+                                  <option value="Laundary">Laundary</option>
+                                  <option value="Marketing">Marketing</option>
+                                  <option value="Medical Store">Medical Store</option>
+                                  <option value="Men Accessories">Men Accessories</option>
+                                  <option value="Men's Wear">Men's Wear</option>
+                                  <option value="Mobile Accessories">Mobile Accessories</option>
+                                  <option value="Packers & Movers">Packers & Movers</option>
+                                  <option value="Party Plot">Party Plot</option>
+                                  <option value="Pest Control">Pest Control</option>
+                                  <option value="Petrol Pump">Petrol Pump</option>
+                                  <option value="Photo Studio">Photo Studio</option>
+                                  <option value="Real Estate">Real Estate</option>
+                                  <option value="Rent & Hire">Rent & Hire</option>
+                                  <option value="Restaurant">Restaurant</option>
+                                  <option value="Security Guard">Security Guard</option>
+                                  <option value="Services">Services</option>
+                                  <option value="Spa Parlour">Spa Parlour</option>
+                                  <option value="Stationery">Stationery</option>
+                                  <option value="Sweetmart">Sweetmart</option>
+                                  <option value="Tailors">Tailors</option>
+                                  <option value="Tours & Travels">Tours & Travels</option>
+                                  <option value="Gifts">Gifts</option>
+                                  <option value="Puncture">Puncture</option>
+                                  <option value="Women Wear">Women Wear</option>
+                                </select>
+                                <h6 id="msg5"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Mobile</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="mobile">
+                                <h6 id="msg6"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Country Name</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <select class="form-select"  id="country_name" aria-label="Default select example" onchange="loadStates()">
+                                  <option value="">Select Country</option>
+                                </select>
+                                <h6 id="msg7"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr class="p-5">
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">State Name</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <select class="form-select" id="state" aria-label="Default select example" onchange="loadCities()">
+                                  <option value="">Select State</option>
+                                </select>
+                                <h6 id="msg8"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">District Name</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <select class="form-select" id="dist" aria-label="Default select example">
+                                  <option value="">Select District</option>
+                                </select>
+                                <h6 id="msg9"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">City Name</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" id="city" class="form-control">
+                                <h6 id="msg10"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Address</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="address">
+                                <h6 id="msg11"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Pin Code</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="pincode">
+                                <h6 id="msg12"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                <h6 id="msg13"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Whatsapp No</label>
+                                  <label class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="number" class="form-control" id="whatsapp">
+                                <h6 id="msg14"></h6>
+                              </div>
+                            </div>
+                          </tr>
+
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Website</label>
+                                  <label class="text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1 text1">:</div>
+                              <div class="col-md-5">
+                                <input type="email" class="form-control" id="website">
+                                <h6 id="msg15"></h6>
+                              </div>
+                            </div>
+                          </tr>
+
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label for="cashback" class="form-label">Cash Back(%)</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="number" class="form-control" id="cashback">
+                                <h6 id="msg16"></h6>
+                              </div>
+                            </div>
+                          </tr>
+
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Time Duration</label>
+                                  <label class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <select class="form-select" aria-label="Default select example">
+                                  <option selected>Select Duration</option>
+                                  <option value="1 month">1 Month </option>
+                                  <option value="2 month">2 Month</option>
+                                  <option value="3 month">3 month</option>
+                                  <option value="4 month">4 month</option>
+                                  <option value="5 month">5 month</option>
+                                  <option value="6 month">6 month</option>
+                                  <option value="7 month">7 month</option>
+                                  <option value="8 month">8 month</option>
+                                  <option value="9 month">9 month</option>
+                                  <option value="10 month">10 month</option>
+                                  <option value="11 month">11 month</option>
+                                  <option value="12 month">12 month</option>
+                                </select>
+                                <h6 id="msg17"></h6>
+                              </div>
+                            </div>
+                          </tr>
+
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Minimum Bill Amount</label>
+                                  <label for="exampleInputEmail1" class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="amount">
+                                <h6 id="msg18"></h6>
+                              </div>
+                            </div>
+                          </tr>
+
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Company Image</label>
+                                  <label class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="file" id="file_upload" onchange=" imageExtension()">
+                                <h6 id="msg19"></h6>
+                                <h6 id="msgs19"></h6>
+                                <h6 id="msgss19"></h6>
+                              </div>
+                            </div>
+                          </tr>
+
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Business Details</label>
+                                  <label class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="b_details">
+                                <h6 id="msg20"></h6>
+                              </div>
+                            </div>
+                          </tr>
+
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Opening Time</label>
+                                  <label class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="opening_time">
+                                <h6 id="msg21"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Closing Time</label>
+                                  <label class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="text" class="form-control" id="close_time">
+                                <h6 id="msg22"></h6>
+                              </div>
+                            </div>
+                          </tr>
+  
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Description Box</label>
+                                  <label class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="description" style="height: 100px"></textarea>
+                                <h6 id="msg23"></h6>
+                              </div>
+                            </div>
+                          </tr>
+                          
+                          <tr>
+                            <div class="row justify-content-center align-items-center mt-3">
+                              <div class="col-md-2">
+                                <div class="title d-flex">
+                                  <label class="form-label">Terms & Condition</label>
+                                  <label class="form-label text px-1"> : </label>
+                                </div>
+                              </div>
+                              <div class="col-md-1">
+                                <div class="text1"> : </div>
+                              </div>
+                              <div class="col-md-5">
+                                <input type="checkbox" id="terms_condition">
+                                <span>Accept Our Terms & Condition..</span>
+                                <h6 id="msg24"></h6>
+                              </div>
+                            </div>
+                          </tr>
+                            <div class="BTN d-flex justify-content-center align-items-center mt-4">
+                              <button type="submit" class="BTN btn btn-primary" id="submit">SUBMIT</button>
+                              <button type="reset" class="BTN 
+                              btn btn-primary mx-5" id="reset">RESET</button>
+                            </div>
+                        </form>
+                      </tbody>
+                    </table> 
+                  </div>
+                </div>
+            </section>
+
+            <p class="text-center text-white bg-dark">&#169; Faydabazar Tech Pvt. Ltd.</p>
+        </div>
+        <!-- </div> -->
+        
+        <script src="./js/preloader.js"></script>
+        <script src="./js/bootstrap.js"></script>
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/vendorForm.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('../font/Inter-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('../font/Poppins-Regular.ttf');
+}
+
+.about-title h4{
+    font-weight: 600;
+    font-family: Inter !important;
+    padding-top: 2rem !important;
+    color: #ff6600;
+}
+
+.about-title h4:hover{
+    color: royalblue;
+}
+
+::selection{
+    color: crimson;
+}
+
+.privacy_policy{
+    background-color: #DCF2F1 !important;
+}
+
+.privacy_policy p{
+    /* margin-top: .5rem !important; */
+    /* margin-bottom: .5rem !important; */
+    color:  rgba(36, 36, 36, 0.8) !important;
+    font-family: poppins !important;
+    word-break: break-word;
+}
+
+.side-text{
+    margin-left: -1rem;
+}
+/* 
+.footer_categories .footer-category a p {
+    color: white !important;
+}
+
+.footer_categories .footer-category a p:hover{
+    color: #ff6600 !important;
+} */
+
+.gravience_officer{
+    color:  black!important;
+}
+
+mark{
+    background-color: yellow;
+}
+
+/* .animated-element {
+    animation: flipInX 3s infinite !important;
+  } */
+
+
+ 
+ /* .flip-in-x:hover {
+    transform-style: preserve-3d !important;
+    animation: flipInXAnimation 1s ease forwards !important;
+  }
+  
+  @keyframes flipInXAnimation {
+    from {
+      transform: perspective(400px) rotateX(90deg) !important; 
+      opacity: 0 !important; 
+    }
+    to {
+      transform: perspective(400px) rotateX(0deg) !important; 
+      opacity: 1 !important; 
+    }
+  }
+   */

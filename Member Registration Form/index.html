@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Member Registration Form</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        <!-- <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+                        <a href="#" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Sing in  Form -->
+        <section class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <h1 style="padding-top: 1rem; text-align: center;">Member Registration Form</h1>
+                        <figure><img src="images/fav-icon1.png" alt="sing up image"></figure>
+                        <!-- <a href="#" class="signup-image-link">Create an account</a> -->
+                    </div>
+
+                    <div class="signin-form">
+                        <div class="logo">
+                            <div class="logo-text">
+                                <span class="font1">Fayda</span>
+                                <span class="font2">Bazar</span>
+                            </div>
+                            <!-- <img src="./images/logo2.png" alt="logo"> -->
+                        </div>
+                        <h3 class="form-title" style="font-size: 25px;">Enter Your Details</h3>
+                        <form method="POST" class="register-form" id="login-form">
+                            <div class="form-group">
+                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="your_name" id="your_name" placeholder="Enter Sponsor ID"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Enter Fullname"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#000"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg></label>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Enter Mobile Number"/>
+                            </div>
+                            <div class="form-group">
+                                <section>
+                                    <!-- <h4>Terminos y Condiciones</h4> -->
+                                    <div class="">
+                                        <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                        <a href="#openModal"><span style="color: black; font-size: 15px;">Accept Terms and condition</span></a>
+                                    </div>
+
+                                    <div id="openModal" class="modalDialog">
+                                    <div class="main-top">
+                                        <a href="#close" title="Close" class="close">X</a>
+                                        <h2>Member Terms And Condition</h2>
+                                        <ul class="navigation">
+                                            <li class="pt-3">
+                                                <p>Members Package amount (499+18% GST), (This payment is nonrefundable)</p>
+                                            </li>
+                                            <li>
+                                                <p>Members Package Valid only 1 Year</p>
+                                            </li>
+                                            <li>
+                                                <p>Admin Charges 20% for Package amount</p>
+                                            </li>
+                                            <li>
+                                                <p>All payouts are applicable for TDS of 5%.</p>
+                                            </li>
+                                            <li>
+                                                <p>Without PAN TDS 20%.</p>
+                                            </li>
+                                            <li>
+                                                <p>Direct Sponsor Income Rs.200/-</p>
+                                            </li>
+                                            <li>
+                                                <p>Referral Income Rs.20/-</p>
+                                            </li>
+                                            <li>
+                                                <p>All Income Transfer in your E-Wallet, we can’t provide cash.</p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    All payment transfer within 24 to 48hours.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>Level Bonus is transfer within 10 to 15 Days.</p>
+                                            </li>
+                                            <li>
+                                                <p>Faydabazar Tech Private Limited policies and T&C are accepting by you, (Privacy & Policy and Terms & Condition),</p>
+                                            </li>
+                                            <li>
+                                                <p> According to the seller's terms and conditions, the seller decides how much discount to give for which item and this is final,</p>
+                                            </li>
+                                            <li>
+                                                <p>Company Reserves the all rights to modify the T&C, Product, Marketing plan, Business and other policies at any time without any prior notice,</p>
+                                            </li>
+                                            <li>
+                                                <p> We can call you for welcome, verification etc.. by our company employee through.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div>
+                                    </div>
+                                    </section>
+                                                                </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Submit"/>
+                                <a href="http://127.0.0.1:5501/memberlogin.html" name="signin" id="signin" class="form-submit">Login</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p class="">Copyright © 2022 All rights are reserved by <span style="color: #ff6600;">Fayda</span><span style="color: royalblue;">bazar</span> Tech Private Limited.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
